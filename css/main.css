@@ -59,7 +59,9 @@ ul li a {
 }
 
 ul li:hover ~ .cursor {
-  -webkit-transform: scale(6);
-          transform: scale(6);
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  -webkit-transform: scale(5);
+          transform: scale(5);
 }
 /*# sourceMappingURL=main.css.map */
